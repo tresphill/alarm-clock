@@ -1,4 +1,4 @@
-// set our variables
+// set variables for time and alarm
 var time, alarm, currentH, currentM,
     activeAlarm = false,
     sound = new Audio("https://freesound.org/data/previews/316/316847_4939433-lq.mp3");
