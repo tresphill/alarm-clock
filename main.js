@@ -1,4 +1,8 @@
-// set our variables
+// Help from Preston didn't work :)
+// let x = document.getElementById("snooze")
+// x.style.visibility = "hidden";
+
+// set variables for time and alarm
 var time, alarm, currentH, currentM,
     activeAlarm = false,
     sound = new Audio("https://freesound.org/data/previews/316/316847_4939433-lq.mp3");
@@ -70,6 +74,7 @@ startstop.onclick = function() {
     this.textContent = "Set Alarm";
     
     // hide snooze button
+    // x.style.visibility = "visible";
     snooze.className = "hide";
     activeAlarm = false;
   }
@@ -94,11 +99,12 @@ snooze.onclick = function() {
     }
     
     // hide snooze button
+    // x.style.visibility = "hidden";
     snooze.className = "hide";
     
     // now reset alarm
-    startstop.click();
-    startstop.click();
+    startstop.onclick();
+    startstop.onclick();
   } else {
     return false;
   }
