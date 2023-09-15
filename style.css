@@ -1,12 +1,12 @@
 .clock-wrapper {
   line-height: 5;
-  background-color: transparent;
+  backdrop-filter: blur;
   width: 50%;
   margin-left: 25%;
 }
 
 .mainbackground {
-  background: linear-gradient(0deg, rgb(55, 5, 78), rgb(139, 139, 139));
+  background: linear-gradient(45deg, #020024, #096f79, #00d4ff);
   height: 99vh;
   border-radius: 10px;
 }
@@ -25,18 +25,18 @@
   cursor: pointer;
   margin: 0 5px;
   padding: 10px 30px;
-  background: white;
+  background: rgb(0, 0, 0);
   border: 1px solid #000000;
   border-radius: 8px;
   outline: 0;
-  color: #000000;
+  color: #ffffff;
   transition: all ease 300ms;
   margin: 10px 0;
 }
 
 .clock-wrapper button:hover {
   color: #333;
-  background: #fff;
+  background: rgb(198, 202, 175);
 
 }
 
