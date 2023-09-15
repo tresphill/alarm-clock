@@ -1,20 +1,36 @@
-.clock-wrapper{
-    line-height: 5;
+.clock-wrapper {
+  line-height: 5;
+  background-color: transparent;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.mainbackground {
+  background: linear-gradient(45deg, rgb(58, 8, 8), white);
+  height: 100vh;
+  border-radius: 10px;
 }
 
 /* header */
 .clock-wrapper h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 6em;
-  color: #000000;
+  color: #ffffff;
+  height: 30%;
 }
+
+/* @media (max-width: 1150px) {
+  #clock {
+    font-size: 4em;
+  }
+} */
 
 /* buttons */
 .clock-wrapper button {
   cursor: pointer;
   margin: 0 5px;
   padding: 10px 30px;
-  background: transparent;
+  background: white;
   border: 1px solid #000000;
   border-radius: 8px;
   outline: 0;
@@ -22,24 +38,34 @@
   transition: all ease 300ms;
   margin: 10px 0;
 }
+
 .clock-wrapper button:hover {
   color: #333;
   background: #fff;
-  
+
 }
 
 /* center content vertically and horizontally */
 .table {
   display: flex;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   justify-content: center;
   position: relative;
 }
+
 .cell {
   display: table-cell;
   vertical-align: middle;
   cursor: default;
 }
 
+.scrollbutton {
+  display: flex;
+  justify-content: center;
+}
 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
