@@ -17,7 +17,7 @@ function displayTime() {
   clock.textContent = time;
   // time = "1:00:00 AM";
   // watch for alarm
-  if (time === alarm) {
+  if (time === alarm) { 
     sound.play();
     
     // show snooze button

@@ -6,8 +6,8 @@
 }
 
 .mainbackground {
-  background: linear-gradient(45deg, rgb(58, 8, 8), white);
-  height: 100vh;
+  background: linear-gradient(0deg, rgb(55, 5, 78), rgb(139, 139, 139));
+  height: 99vh;
   border-radius: 10px;
 }
 
@@ -19,11 +19,6 @@
   height: 30%;
 }
 
-/* @media (max-width: 1150px) {
-  #clock {
-    font-size: 4em;
-  }
-} */
 
 /* buttons */
 .clock-wrapper button {
